@@ -59,6 +59,9 @@ inputs:
     git_data_dir: data
   - class: InputSdmxMeta
     meta_suffix: __GLOBAL
+  - class: InputYamlMeta
+    path_pattern: meta-overrides/*.yml
+    git: false
 
 # Translations
 # ------------
